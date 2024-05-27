@@ -1,0 +1,16 @@
+body{
+	background-color: black;
+	color: #eeeeee;
+}
+
+
+.scoreDisplay{
+	color: azure;
+	font-size: large;
+}
+
+#playArea{
+	background-color: black;
+	position: fixed;
+	border: #eeeeee 1px solid;
+}
