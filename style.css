@@ -1,16 +1,27 @@
 body{
-	background-color: black;
+	background-color: #101010;
 	color: #eeeeee;
+	width: fit-content;
 }
-
-
 .scoreDisplay{
 	color: azure;
 	font-size: large;
 }
-
 #playArea{
 	background-color: black;
-	position: fixed;
 	border: #eeeeee 1px solid;
+}
+#gameScreen{
+	margin:10px;
+	width: 500px;
+	height: auto;
+	position: sticky;
+	float:left;
+}
+#infoScreen{
+	margin:10px;
+	width: 500px;
+	height: auto;
+	position: sticky;
+	float: right;
 }
