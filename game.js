@@ -15,22 +15,22 @@ function engine(){//engine
 }
 
 function keybdInput(event){//handles all key-presses
-    let key=event.key;
-		switch(key){
-			case "a":
-				//left
-				break;
-			case "w":
-				//up
-				break;
-			case "d":
-        //right
-				break;
-			case "s":
-        //down
-				break;
-			case "p":
-				paused=!paused;
-				break;
-		}
+	let key=event.key;
+	switch(key){
+		case "a":
+			//left
+			break;
+		case "w":
+			//up
+			break;
+		case "d":
+			//right
+			break;
+		case "s":
+			//down
+			break;
+		case "p":
+			paused=!paused;
+			break;
+	}
 }
