@@ -5,7 +5,27 @@
 	<title>Chomper Game</title>
 	<link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
-<body>
-    <script src="game.js" type="text/javascript"></script>
+<body onload="reset()">
+<div id="gameScreen">
+	<span class="scoreDisplay">Score: 0</span>
+	<canvas id="playArea"></canvas>
+</div>
+<div id="infoScreen">
+	<h3>How to play:</h3>
+	<p>Control the player with the keyboard. Steer it towards pellets to eat them.
+		When there are no more pellets on screen, the game is over. Eat as many pellets as
+		you can, eating pellets scores points and spawns new pellets. Get 'em before
+		they're gone!</p>
+	<p>Start or unpause the game by pressing one of the movement keys.</p>
+	<h4>Controls:</h4>
+	<ul>
+		<li>W &#8594; Up</li>
+		<li>A &#8594; Left</li>
+		<li>S &#8594; Down</li>
+		<li>D &#8594; Right</li>
+		<li>P &#8594; Pause the game</li>
+	</ul>
+</div>
+<script src="game.js" type="text/javascript"></script>
 </body>
 </html>
